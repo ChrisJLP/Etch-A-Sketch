@@ -14,3 +14,11 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
+const squares = document.querySelectorAll('.gridDiv');
+console.log(squares);
+
+squares.forEach((square) => {
+    square.addEventListener('mouseover', () => {
+        square.style.backgroundColor = 'black';
+    });
+});
