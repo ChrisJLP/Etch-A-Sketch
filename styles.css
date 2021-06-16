@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    width: 600px;
+    height: 500px;
+}
+
+.gridDiv {
+    border: 1px;
+    border-style: solid;
+    margin: 0px;
+    padding: 12px;
+}
+
+/* .gridRow {
+    border: 1px;
+    border-style: solid solid none solid;
+    margin: 0.5px;
+    padding: 2px;
+    
+} */
