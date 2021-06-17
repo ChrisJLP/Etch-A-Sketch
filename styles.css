@@ -1,20 +1,28 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    position: relative;
+}
+
 #container {
     display: flex;
-    width: 600px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    border: 0.1px;
+    border-style: solid;
+    border-width: thick;  
+    padding: 1px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .gridDiv {
-    border: 1px;
-    border-style: solid;
-    margin: 0px;
-    padding: 12px;
+    background-color: white;
 }
 
-/* .gridRow {
-    border: 1px;
-    border-style: solid solid none solid;
-    margin: 0.5px;
-    padding: 2px;
-    
-} */
