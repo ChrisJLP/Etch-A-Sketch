@@ -3,6 +3,9 @@ body {
     width: 100vw;
     margin: 0px;
     position: relative;
+    /* background-color: #41B3A3; */
+    background-color: #C2B9B0;
+    
 }
 
 #container {
@@ -19,7 +22,6 @@ body {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .gridDiv {
@@ -32,11 +34,15 @@ body {
     justify-content: center;
     position: absolute;
     top: 18%;
+    
 }
 
 .button {
     margin: 5px;
     font-size: 20px;
+    /* background-color: #C38D9E; */
+    background-color: #C2CAD0;
+    
 }
 
 @media screen and (max-width: 1920px),
