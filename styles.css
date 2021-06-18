@@ -7,8 +7,8 @@ body {
 
 #container {
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 900px;
+    height: 900px;
     margin: 0;
     border: 0.1px;
     border-style: solid;
@@ -16,7 +16,7 @@ body {
     padding: 1px;
     background-color: black;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -26,3 +26,71 @@ body {
     background-color: white;
 }
 
+#buttons {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 18%;
+}
+
+.button {
+    margin: 5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1920px),
+        screen and (max-height: 1080px) {
+    #container {
+        width: 750px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1600px),
+        screen and (max-height: 850px) {
+    #container {
+        width: 650px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 1200px),
+        screen and (max-height: 800px) {
+    #container {
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 900px),
+        screen and (max-height: 800px) {
+    #container {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px),
+        screen and (max-height: 550px) {
+    #container {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 450px),
+        screen and (max-height: 450px) {
+    #container {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 350px),
+        screen and (max-height: 350px) {
+    #container {
+        width: 200px;
+        height: 200px;
+    }
+}
